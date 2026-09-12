@@ -6,9 +6,6 @@ namespace PasswordManager.Models;
 /// </summary>
 public sealed class VaultData
 {
-    /// <summary>
-    /// Версия формата файла — для возможной миграции в будущем.
-    /// </summary>
     public int Version { get; set; } = 1;
 
     /// <summary>

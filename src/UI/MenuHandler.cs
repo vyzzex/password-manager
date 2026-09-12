@@ -72,8 +72,7 @@ public sealed class MenuHandler
         ConsoleHelper.WriteLine("Минимум 8 символов, используйте буквы, цифры и спецсимволы.", ConsoleColor.DarkGray);
         Console.WriteLine();
 
-        string password;
-        string confirm = string.Empty;
+        string password, confirm;
         do
         {
             password = ConsoleHelper.ReadPassword("Новый мастер-пароль: ");
